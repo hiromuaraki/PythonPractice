@@ -1,4 +1,3 @@
-import sympy
 a, b, c = map(int, input().split())
 cnt = 0
 # 約数を求める
