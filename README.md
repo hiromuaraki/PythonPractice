@@ -10,7 +10,7 @@
 
 ##　Homebrewのインストール
 
-$ 'brew -v'
+$ "brew -v"
 
 で Homebrew のバージョンが表示されない場合は `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 を実行して Homebrew をインストールしてください。
