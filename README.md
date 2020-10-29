@@ -8,7 +8,8 @@
 - 「Homebrew」を用いて「pyenv」をインストールする
 - 「pyenv」を用いてPythonをインストールする
 
-##　Homebrewのインストール
+
+## Homebrewのインストール
 
 $ `brew -v`
 
@@ -24,9 +25,9 @@ $ `pyenv -v`
 
 $ `brew install pyenv`
 
+
 ## pyenvの設定
 $ `echo $SHELL`
-
 
 ### 実行結果が `/bin/bash` の場合、以下４つのコマンドを実行してください。
 
@@ -41,6 +42,7 @@ $ `echo $SHELL`
 - $ `echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc`
 - $ `echo 'eval "$(pyenv init -)"' >> ~/.zshrc`
 - $ `source ~/.zshrc`
+
 
 ## Pythonのインストール
 
