@@ -76,13 +76,40 @@ $ `python --version`
 これで「3系」のPythonを使えるようになりました！
 
 
+
 # スクレイピング使用ツール編
+- pip3
 - BeautifulSoup
 - requests
-- re
 - lxml
 
+
 ## BeautifulSoupのインストール
+
+下記をインストールしてください。
+
+$ `pip3 install beautifulsoup4`
+
+pip自体をバージョンアップするメッセージが表示された場合は
+下記のコマンドでpipコマンドのバージョンをあげることができます。
+
+$ `pip3 install -U pip`
+
+
+## requestsのインストール
+
+$ `pip3 install requests`
+
+
+## lxmlのインストール
+
+$ `pip install lxml`
+
+
+以上で環境構築は完了です、お疲れ様でした🥂
+
+
+
 
 
 
